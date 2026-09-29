@@ -1,0 +1,14 @@
+{
+  "name": "durga_playwright_mypractice",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js src/features/*.feature --require src/support/*.ts --require src/step-definitions/*.ts --require-module tsx/cjs/api"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.2.1",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
